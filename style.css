@@ -1,0 +1,136 @@
+body {
+    background-color:black ;
+}
+
+
+
+.maincontainer {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.cardone {
+background-color: #8530BA;
+width: 300px;
+height:400px;
+margin: 15px;
+border-radius: 10px;
+}
+
+.image {
+    background-color: black;
+    height: 150px;
+    margin:10px;
+    background-size: cover;
+}
+
+.imageone {
+    background-image: url('https://vignette.wikia.nocookie.net/scream-franchise/images/4/47/Ghostface.png/revision/latest?cb=20180830015406');
+}
+
+.cardtwo {
+    background-color: #BD2E17;
+    width: 300px;
+    height:400px;
+    margin: 15px;
+    border-radius: 10px;
+    }
+    .imagetwo {
+        background-image: url("https://static2.srcdn.com/wordpress/wp-content/uploads/2021/01/Halloween-kills-Michael-myers-return.jpg");
+    }
+
+    .cardthree {
+        background-color: #8530BA;
+        width: 300px;
+        height:400px;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: smaller;
+        }
+        .imagethree {
+            background-image: url('https://carboncostume.com/wordpress/wp-content/uploads/2017/10/wendy-torrance.jpg'); }
+
+
+        .cardfour{
+            background-color: #BD2E17;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagefour {
+            background-image: url('https://cdn3.movieweb.com/i/article/EiTn6T4hNlSJTd70XeC1GhtQCRDLka/1200:100/Jason-Voorhees-Is-The-Focus-Of-New-Friday.jpg')}
+           
+        .cardfive {
+            background-color: #8530BA;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagefive {
+            background-image: url('https://1.bp.blogspot.com/-mBUMY8FhRMA/XGaxLYR7CaI/AAAAAAAAJIY/CPOUkfNtmyE6DkrivZ-oY1OaFC9o6b_QACK4BGAYYCw/s1600/Clarice%2BSTarling.png');
+        }
+
+        .cardsix{
+            background-color: #BD2E17;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagesix {
+            background-image: url('https://vignette.wikia.nocookie.net/horrormovies/images/2/20/Carrie_white_1976_15_by_carriejokerbates-d8407vd.png/revision/latest?cb=20160211023453');
+        }
+
+
+    .cardone:hover{
+        background-color:#BD2E17;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.02);
+        transition: all .5s ease-in;
+            }
+
+     .cardtwo:hover{
+    background-color:#8530BA;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.02);
+     transition: all .5s ease-in;
+
+           }
+       
+.cardthree:hover{
+    background-color:#BD2E17;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+}
+
+.cardfour:hover{
+    background-color:#8530BA;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.02);
+     transition: all .5s ease-in;
+
+           }
+
+.cardfive:hover{
+    background-color:#BD2E17;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+        }
+
+.cardsix:hover{
+    background-color: #8530BA;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+}
